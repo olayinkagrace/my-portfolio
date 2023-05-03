@@ -1,0 +1,96 @@
+.section_one {
+    background-color: purple;
+    color: white;
+}
+.section-two {
+    background-color: rgb(243, 237, 237);
+}
+.my_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
+}
+.span {
+    color: purple;
+}
+.phone {
+    font-size: 10px;
+}
+.project-dev {
+    background-color: rgb(243, 237, 237);
+}
+.project-div {
+    background: linear-gradient(black, purple);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.project-div:focus {
+    background: linear-gradient(rgb(230, 83, 230),white);
+    color:black;
+}
+.react_div {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.react_img {
+    border-radius: 5px;
+}
+.block {
+    display: block;
+}
+.skills-div {
+    background-color: rgb(224, 219, 219);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skills-div:hover {
+    background-color: grey;
+    color: white;
+}
+.block_it {
+    display: block;
+}
+.icon-one {
+color: orangered;
+}
+.icon-two {
+    background-color: green;
+}
+.icon-three {
+    background-color: yellow;
+}
+.icon-four {
+    background-color: rgb(234, 125, 234);
+}
+.icon-five {
+    background-color: rgb(111, 111, 203);
+}
+.copywrite {
+    background-color: purple;
+    width: 100%;
+}
+.contact-btn {
+    width: 100%;
+    background-color: purple;
+    border: none;
+    color: white;
+}
+textarea{
+    height: 140px;
+}
+.footer-icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
