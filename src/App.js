@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 
+
 function App(params) {
 const textRef = React.useRef()
 React.useEffect(() => {
@@ -30,7 +31,7 @@ React.useEffect(() => {
                     <small className='fw-semibold ms-1'>olayinka4grace@gmail.com</small>
                 </div>
             </section>
-            <section className='mt-3 py-2 text-center section-two py-5'>
+            <section className='text-center section-two py-5'>
                 <div>
                     <img src="./olayinka.jpg" alt="pics" className="img-fluid my_img" />
                 </div>

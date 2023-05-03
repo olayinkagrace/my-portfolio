@@ -2,7 +2,7 @@ import React from "react";
 
 function Html(params) {
    return(
-    <main className="d-sm-flex justify-content-between text-center">
+    <main className="d-sm-flex row justify-content-between text-center">
       <a className="text-dark text-decoration-none" href="https://freeelancer.netlify.app/"><div className="py-2 m-4 react_div">
         <img src="freelancer.png" alt="pics" width="150px" className="react_img img-fluid" />
         <small className="block fst-italic fw-semibold">Boostrap, CSS & Html</small>

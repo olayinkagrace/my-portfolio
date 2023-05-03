@@ -2,7 +2,7 @@ import React from "react";
 
 function Javascript(params) {
    return(
-    <main className="d-sm-flex justify-content-between text-center">
+    <main className="d-sm-flex row justify-content-between text-center">
         <a className="text-dark text-decoration-none" href="https://theblackjackgamebyog.netlify.app/"><div className="py-2 m-4 react_div">
         <img src="blackjack.png" alt="pics" width="150px" className="react_img img-fluid" />
         <small className="block fst-italic fw-semibold">Javascript, CSS & Html</small>

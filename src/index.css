@@ -29,13 +29,16 @@
     background: linear-gradient(rgb(230, 83, 230),white);
     color:black;
 }
+
 .react_div {
     background-color: white;
     border-radius: 10px;
     box-shadow: 4px 4px 4px 4px grey;
+    
 }
 .react_img {
     border-radius: 5px;
+ 
 }
 .block {
     display: block;
@@ -72,10 +75,23 @@ color: orangered;
 .icon-five {
     background-color: rgb(111, 111, 203);
 }
+.icon-six {
+    background-color: rgb(237, 249, 239);
+    color: lawngreen;
+}
+.icon-seven {
+    background-color: forestgreen;
+    color: rgb(231, 231, 240);
+}
+.icon-eight {
+    background-color: rgb(236, 243, 252);
+    color: rgb(110, 143, 227);
+}
 .copywrite {
     background-color: purple;
     width: 100%;
 }
+
 .contact-btn {
     width: 100%;
     background-color: purple;
