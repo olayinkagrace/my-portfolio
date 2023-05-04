@@ -28,7 +28,7 @@ function Node() {
         href='https://ogmemegenerator.netlify.apkp/'
       >
         <div className='py-2 m-4 react_div'>
-          <img src='travel.jpg' alt='pics' width='100px' className='react_img' />
+          <img src='travel.jpg' alt='pics' width='100px' className='react_img img-fluid' />
           <small className='block fst-italic fw-semibold'>
             React, Bootstrap, NodeJs, Mongodb, Redux
           </small>
