@@ -5,7 +5,7 @@ function Node() {
     <main className='d-sm-flex row justify-content-between text-center'>
       <a
         className='text-dark text-decoration-none'
-        href='https://ogmillionaire.netlify.appj/'
+        href='https://github.com/olayinkagrace/beebuy'
       >
         <div className='py-2 m-4 react_div'>
           <img
@@ -25,7 +25,7 @@ function Node() {
       </a>
       <a
         className='text-dark text-decoration-none'
-        href='https://ogmemegenerator.netlify.apkp/'
+        href='https://github.com/olayinkagrace/travel-diary'
       >
         <div className='py-2 m-4 react_div'>
           <img src='travel.jpg' alt='pics' width='100px' className='react_img img-fluid' />
@@ -40,7 +40,7 @@ function Node() {
       </a>
       <a
         className='text-dark text-decoration-none'
-        href='https://ggtb.netlify.apmp/'
+        href='https://github.com/olayinkagrace/slimnatics'
       >
         <div className='py-2 m-4 react_div'>
           <img
