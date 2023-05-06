@@ -4,7 +4,7 @@ function Contact(params) {
     return(
         <main className='py-5 container w-75'>
             <h4 className="fw-bolder fs-4 py-2">Contact Me</h4>
-            <form action="mailto:olayinka4grace@dmail.com" method='post' encType='text/plain'>
+            <form action="mailto:olayinka4grace@gmail.com" method='post' encType='text/plain'>
                 <label className='fw-semibold fs-6'>NAME</label>
                 <input type='text' className='form-control' placeholder='Name' />
                 <label  className='fw-semibold'>EMAIL</label>

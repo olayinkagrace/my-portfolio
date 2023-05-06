@@ -3,12 +3,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { FaPhone, FaMailBulk } from "react-icons/fa";
+import {Link} from "react-router-bootstrap"
 
 
 function BasicExample() {
   return (
     <Navbar expand='lg' className='navbar'>
       <Container>
+        {/* <Link to='/'>Portfolio</Link> */}
         <Navbar.Brand text='light' href='/' className='text-light fw-bold fs-3'>
           Portfolio
         </Navbar.Brand>
