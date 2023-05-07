@@ -45,8 +45,8 @@
 }
 .skills-div {
     background-color: rgb(224, 219, 219);
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
