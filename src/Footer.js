@@ -20,7 +20,7 @@ function Footer(params) {
           </a>
         </div>
       </div>
-      <div className='p-2 pt-5 text-light text-center'>
+      <div className='p-2 pt-5 cpoywrite text-center'>
         &#169; All right reserved-Olayinka Grace Okanlawon
       </div>
     </div>

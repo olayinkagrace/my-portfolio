@@ -38,7 +38,7 @@ function Projects(params) {
             onClick={handleNode}
             className='project-div fw-bold p-2 col m-1'
           >
-            Node
+            NODE
           </button>
           <button
             onClick={handleReact}
@@ -50,7 +50,7 @@ function Projects(params) {
             onClick={handleJs}
             className='project-div fw-bold p-2 col m-1'
           >
-            JAVASCRIPT
+            JS/TS
           </button>
           <button
             onClick={handleHC}

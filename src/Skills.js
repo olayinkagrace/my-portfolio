@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   FaHtml5,
+  FaMapMarked,
   FaCss3,
   FaBootstrap,
   FaJs,
@@ -20,11 +21,17 @@ function Skills(params) {
   return (
     <main className='text-center container py-5 my-2'>
       <h4 className='fw-bolder fs-4 py-2'>Skills</h4>
-      <Row>
+      <Row className="align-items-center ms-4">
         <div className='skills-div text-center  m-3'>
           <div className='align-items-center text-center'>
             <FaHtml5 className='fs-1 icon-one' />
             <small className=' fw-bold block_it'>HTML</small>
+          </div>
+        </div>
+        <div className='skills-div text-center  m-3'>
+          <div className='align-items-center text-center'>
+            <FaMapMarked className='fs-1 icon-eight' />
+            <small className=' fw-bold block_it'>MUI</small>
           </div>
         </div>
         <div className='skills-div text-center m-3'>

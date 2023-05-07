@@ -15,7 +15,7 @@ function Node() {
             className='react_img img-fluid'
           />
           <small className='block fst-italic fw-semibold'>
-            NodeJs, React, Mongodb, Redux
+            NodeJs, React,Bootstrap, Mongodb, Redux
           </small>
           <small className='block fw-bolder'>A E-commerce Website</small>
           <small className='block fw-normal'>
@@ -30,11 +30,11 @@ function Node() {
         <div className='py-2 m-4 react_div'>
           <img src='travel.jpg' alt='pics' width='100px' className='react_img img-fluid' />
           <small className='block fst-italic fw-semibold'>
-            React, Bootstrap, NodeJs, Mongodb, Redux
+            React, MUI, NodeJs, Mongodb, Redux
           </small>
           <small className='block fw-bolder'>Travel Journal</small>
           <small className='block fw-normal'>
-            This web app allow you to document all your travel memories
+            This web app allows you to document all your travel memories
           </small>
         </div>
       </a>
@@ -55,7 +55,7 @@ function Node() {
           <small className='block fw-bolder'>Slimnatics</small>
           <small className='block fw-normal'>
             This web app is for people who want to stay fit or for chubby people
-            who want to slim down. All your exercise journey can be documented here
+            who want to slim down. All your exercise journey can be tracked here
           </small>
         </div>
       </a>

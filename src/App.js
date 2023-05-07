@@ -12,8 +12,8 @@ import HomeScreen from "./HomeScreen";
 function App(params) {
   return (
     <main>
-      <TheNavbar />
       <BrowserRouter>
+      <TheNavbar />
         <Routes>
           <Route path='/' element={<HomeScreen />} />
           <Route path='/aboutme' element={<Home />} />

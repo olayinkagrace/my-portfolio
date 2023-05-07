@@ -110,3 +110,7 @@ textarea{
     justify-content: center;
     align-items: center;
 }
+.copywrite{
+    color: rgb(163, 165, 167);
+    font-size: 12px;
+}

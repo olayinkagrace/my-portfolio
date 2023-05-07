@@ -36,7 +36,7 @@ function Reactt(params) {
           </small>
         </div>
       </a>
-      <a
+      {/* <a
         className='text-dark text-decoration-none'
         href='https://ggtb.netlify.app/'
       >
@@ -55,7 +55,7 @@ function Reactt(params) {
             A Fintech App for a day-to-day transactions.
           </small>
         </div>
-      </a>
+      </a> */}
       <a
         className='text-dark text-decoration-none'
         href='https://ogadvicegenerator.netlify.app/'

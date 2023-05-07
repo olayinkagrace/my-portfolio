@@ -3,36 +3,46 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { FaPhone, FaMailBulk } from "react-icons/fa";
-import {Link} from "react-router-bootstrap"
-
+import { Link, NavLink } from "react-router-dom";
 
 function BasicExample() {
   return (
     <Navbar expand='lg' className='navbar'>
       <Container>
-        {/* <Link to='/'>Portfolio</Link> */}
-        <Navbar.Brand text='light' href='/' className='text-light fw-bold fs-3'>
+       <Link to="/" className="text-decoration-none"><Navbar.Brand text='light' className='text-light fw-bold fs-3'>
           Portfolio
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls='basic-navbar-nav'/>
+        </Navbar.Brand></Link>
+        <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='ms-auto'>
-            <Nav.Link href='/aboutme' className='text-light fw-semibold fs-6'>
+            <NavLink
+              to='/aboutme'
+              className='text-light fw-semibold fs-6 text-decoration-none m-3'
+            >
               About Me
-            </Nav.Link>
-            <Nav.Link href='/skills' className='text-light fw-semibold fs-6'>
+            </NavLink>
+            <NavLink
+              to='/skills'
+              className='text-light fw-semibold fs-6 text-decoration-none m-3'
+            >
               Skills
-            </Nav.Link>
-            <Nav.Link href='/projects' className='text-light fw-semibold fs-6'>
+            </NavLink>
+            <NavLink
+              to='/projects'
+              className='text-light fw-semibold fs-6 text-decoration-none m-3'
+            >
               Projects
-            </Nav.Link>
-            <Nav.Link href='/contact' className='text-light fw-semibold fs-6'>
+            </NavLink>
+            <NavLink
+              to='/contact'
+              className='text-light fw-semibold fs-6 text-decoration-none m-3'
+            >
               Contact
-            </Nav.Link>
+            </NavLink>
             <NavDropdown
               title='Olayinka'
               id='basic-nav-dropdown'
-              className='text-light fw-semibold fs-6 bg-light'
+              className='text-light fw-semibold fs-6 bg-light m-2 ms-3'
             >
               <NavDropdown.Item>
                 {" "}
