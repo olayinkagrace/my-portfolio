@@ -61,25 +61,25 @@ function Skills(params) {
         <div className='skills-div text-center m-3'>
           <div>
             <FaNodeJs className='fs-1 icon-two' />
-            <small className=' fw-bold block_it'>NODEJS</small>
+            <small className=' fw-bold block_it'>NODE JS</small>
           </div>
         </div>
         <div className='skills-div text-center m-3'>
           <div>
             <FaDatabase className='fs-1 icon-eight' />
-            <small className=' fw-bold block_it'>POSTGRES</small>
+            <small className=' fw-bold block_it'>POSTGRE SQL</small>
           </div>
         </div>
         <div className='skills-div text-center m-3'>
           <div>
             <FaLeaf className='fs-1 icon-six' />
-            <small className=' fw-bold block_it'>MONGODB</small>
+            <small className=' fw-bold block_it'>MONGO DB</small>
           </div>
         </div>
         <div className='skills-div text-center m-3'>
           <div>
             <FaJs className='fs-1 icon-two' />
-            <small className=' fw-bold block_it'>EXPRESSJS</small>
+            <small className=' fw-bold block_it'>EXPRESS JS</small>
           </div>
         </div>
         <div className='skills-div text-center m-3'>
