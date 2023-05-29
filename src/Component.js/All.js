@@ -1,7 +1,7 @@
 import React from "react";
 import Reactt from "./Reactt";
 import Javascript from "./Javascript";
-import Html from "./Html";
+// import Html from "./Html";
 import Node from "./Node";
 
 function All(params) {
@@ -10,7 +10,7 @@ function All(params) {
         <Node />
         <Reactt />
         <Javascript />
-        <Html />
+        {/* <Html /> */}
     </div>
    ) 
 }

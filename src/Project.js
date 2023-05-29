@@ -20,9 +20,9 @@ function Projects(params) {
   function handleJs(params) {
     setActive("js");
   }
-  function handleHC(params) {
-    setActive("html");
-  }
+  // function handleHC(params) {
+  //   setActive("html");
+  // }
   return (
     <main className='project-dev py-3'>
       <div className='container text-center '>
@@ -52,12 +52,12 @@ function Projects(params) {
           >
             JS/TS
           </button>
-          <button
+          {/* <button
             onClick={handleHC}
             className='project-div fw-bold p-2 col m-1'
           >
             HTMl/CSS
-          </button>
+          </button> */}
         </div>
         {active === "all" && <All />}
         {active === "node" && <Node />}

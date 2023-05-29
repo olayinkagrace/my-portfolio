@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=VT323&display=swap');
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
     background-color: purple;
     color: white;
@@ -10,6 +18,61 @@
     height: 200px;
     border-radius: 90px;
 }
+
+
+
+.animinate > div {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    height: 37px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: hidden;
+
+  }
+  
+  div.word-list span {
+    display: block;
+  }
+  div.word-list {
+    position: relative;
+    animation: cycle ease 5s infinite;
+  }
+  
+  @keyframes cycle {
+    0% {top: 0}
+    10% {top: 0}
+    20% {top: -30px}
+    30% {top: -30px}
+    40% {top: -60px;}
+    50% {top: -60px;}
+    60% {top: -90px;}
+    70% {top: -90px;}
+    80% {top: -120px;}
+    90% {top: -120px;}
+    100% {top: 0px;}
+  }
+  
+  /* colors */
+  span:nth-child(1) {
+    color:#a61e82;
+  }
+  span:nth-child(2) {
+    color:"purple";
+  }
+  span:nth-child(3) {
+    color:#db37baac;
+  }
+  span:nth-child(4) {
+    color:#ad099f;
+  }
+  span:nth-child(5) {
+    color:#880b7a;
+  }
+
 .span {
     color: purple;
 }

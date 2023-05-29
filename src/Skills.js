@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
-  FaHtml5,
+  // FaHtml5,
   FaMapMarked,
   FaCss3,
   FaBootstrap,
@@ -9,7 +9,7 @@ import {
   FaReact,
   FaJava,
   FaJsSquare,
-  FaGit,
+  // FaGit,
   FaGithub,
   FaNodeJs,
   FaLeaf,
@@ -22,12 +22,30 @@ function Skills(params) {
     <main className='text-center container py-5 my-2'>
       <h4 className='fw-bolder fs-4 py-2'>Skills</h4>
       <Row className='align-items-center ms-2'>
-        <div className='skills-div text-center  m-3'>
+        <div className='skills-div text-center m-3'>
+          <div>
+            <FaReact className='fs-1 bg-info' />
+            <small className=' fw-bold block_it'>REACT</small>
+          </div>
+        </div>
+        <div className='skills-div text-center m-3'>
+          <div>
+            <FaNodeJs className='fs-1 icon-two' />
+            <small className=' fw-bold block_it'>NODE JS</small>
+          </div>
+        </div>
+        <div className='skills-div text-center m-3'>
+          <div>
+            <FaJs className='fs-1 icon-two' />
+            <small className=' fw-bold block_it'>EXPRESS JS</small>
+          </div>
+        </div>
+        {/* <div className='skills-div text-center  m-3'>
           <div className='align-items-center text-center'>
             <FaHtml5 className='fs-1 icon-one' />
             <small className=' fw-bold block_it'>HTML</small>
           </div>
-        </div>
+        </div> */}
         <div className='skills-div text-center  m-3'>
           <div className='align-items-center text-center'>
             <FaMapMarked className='fs-1 icon-eight' />
@@ -46,54 +64,37 @@ function Skills(params) {
             <small className=' fw-bold block_it'>Bootstrap</small>
           </div>
         </div>
-        <div className='skills-div text-center m-3'>
+        {/* <div className='skills-div text-center m-3'>
           <div>
             <FaJs className='fs-1 icon-three' />
             <small className=' fw-bold block_it'>JS</small>
           </div>
-        </div>
-        <div className='skills-div text-center m-3'>
-          <div>
-            <FaReact className='fs-1 bg-info' />
-            <small className=' fw-bold block_it'>REACT</small>
-          </div>
-        </div>
-        <div className='skills-div text-center m-3'>
-          <div>
-            <FaNodeJs className='fs-1 icon-two' />
-            <small className=' fw-bold block_it'>NODE JS</small>
-          </div>
-        </div>
-        <div className='skills-div text-center m-3'>
+        </div> */}
+        {/* <div className='skills-div text-center m-3'>
           <div>
             <FaDatabase className='fs-1 icon-eight' />
             <small className=' fw-bold block_it'>POSTGRE SQL</small>
           </div>
-        </div>
+        </div> */}
         <div className='skills-div text-center m-3'>
           <div>
             <FaLeaf className='fs-1 icon-six' />
             <small className=' fw-bold block_it'>MONGO DB</small>
           </div>
         </div>
-        <div className='skills-div text-center m-3'>
-          <div>
-            <FaJs className='fs-1 icon-two' />
-            <small className=' fw-bold block_it'>EXPRESS JS</small>
-          </div>
-        </div>
+       
         <div className='skills-div text-center m-3'>
           <div>
             <FaDatabase className='fs-1 icon-eight' />
             <small className=' fw-bold block_it'>SQL</small>
           </div>
         </div>
-        <div className='skills-div text-center m-3'>
+        {/* <div className='skills-div text-center m-3'>
           <div>
             <FaDatabase className='fs-1 icon-one' />
             <small className=' fw-bold block_it'>MS SQL</small>
           </div>
-        </div>
+        </div> */}
         <div className='skills-div text-center m-3'>
           <div>
             <FaJsSquare className='fs-1 icon-eight' />
@@ -112,12 +113,12 @@ function Skills(params) {
             <small className=' fw-bold block_it'>SPRING</small>
           </div>
         </div>
-        <div className='skills-div text-center m-3'>
+        {/* <div className='skills-div text-center m-3'>
           <div>
             <FaGit className='fs-1 icon-one' />
             <small className=' fw-bold block_it'>GIT</small>
           </div>
-        </div>
+        </div> */}
         <div className='skills-div text-center m-3'>
           <div>
             <FaGithub className='fs-1' />
