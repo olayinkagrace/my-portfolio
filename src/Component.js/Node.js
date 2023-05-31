@@ -5,7 +5,7 @@ function Node() {
     <main className='d-sm-flex row justify-content-between text-center'>
       <a
         className='text-dark text-decoration-none'
-        href='https://github.com/olayinkagrace/beebuy'
+        href='https://beebuyapp.onrender.com/'
       >
         <div className='py-2 m-4 react_div'>
           <img
@@ -23,7 +23,7 @@ function Node() {
           </small>
         </div>
       </a>
-      <a
+      {/* <a
         className='text-dark text-decoration-none'
         href='https://github.com/olayinkagrace/travel-diary'
       >
@@ -37,10 +37,10 @@ function Node() {
             This web app allows you to document all your travel memories
           </small>
         </div>
-      </a>
+      </a> */}
       <a
         className='text-dark text-decoration-none'
-        href='https://github.com/olayinkagrace/slimnatics'
+        href='https://og-slimnatics.onrender.com/'
       >
         <div className='py-2 m-4 react_div'>
           <img
